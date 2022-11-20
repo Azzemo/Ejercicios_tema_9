@@ -24,10 +24,16 @@ public class Ejercicios_tema_9 {
         }
 
         Trabajador objeto2 = new Trabajador();
+        objeto2.nombre = "Manuel";
+        objeto2.edad = 32;
+        objeto2.telefono = 58987654321L;
         objeto2.salario = 1_000;
 
+        System.out.println("\n");
+        System.out.println("Nombre:"+objeto2.nombre);
+        System.out.println("Edad:"+objeto2.edad);
+        System.out.println("telefono:+"+objeto2.telefono);
         System.out.println("Salario:"+objeto2.salario+"$");
-            
     }
 
     static class Persona {
